@@ -1,0 +1,120 @@
+/* Stardos Stencil */
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+/* Graduate  */
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+/* Titillium Web */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+body {
+    font-family: 'Graduate', 'Stardos Stencil', 'Titillium Web', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: snow;
+    text-align: center;
+}
+
+h1 {
+    font-size: 12rem;
+}
+
+.jersey {
+    /* background-image: url('./public/images/background.jpg'); */
+    background-image:
+    linear-gradient(to bottom,  rgba(39, 36, 38, 0.90), rgba(245, 246, 252, 0.52)), url('./public/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: auto;   
+    overflow: hidden; 
+    padding: 80px 0;     
+}
+
+.options {    
+    max-width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.jersey-logo {
+    position: absolute;
+    top: 11rem;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 10rem; 
+}
+
+.jersey-number {
+    font-family: 'Graduate';
+    position:absolute;
+    top: 11rem;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.jersey-number .number {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.team-jersey {
+    max-width: 30rem; 
+   }
+
+.lakers-icon-number {
+    color: #552583;
+    text-shadow: 1px 0 0 #fff, 1px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, 1px 1px 0 #fff, 1px 5px 0 #fff, 1px 5px 0 #fff;
+    
+}
+
+.lakers-statement-number {
+    color: #FDB927;
+    text-shadow: 1px 0 0 #fff, 1px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, 1px 1px 0 #fff, 1px 5px 0 #fff, 1px 5px 0 #fff;
+}
+
+.lakers-association-number {
+    color: #552583;
+    text-shadow: 1px 0 0 #fdb927, 1px 0 0 #fdb927, 0 2px 0 #fdb927, 0 -2px 0 #fdb927, 1px 1px #fdb927, 1px 1px 0 #fdb927, 1px 5px 0 #fdb927, 1px 5px 0 #fdb927;
+}
+
+.lakers-city-edition-2021-number {
+    color: #d1e3fc;
+    text-shadow: 2px 0 0 #549bfa, -2px 0 0 #549bfa, 0 2px 0 #549bfa, 0 -2px 0 #549bfa, 1px 1px #549bfa, 1px 5px 0 #549bfa, 1px 5px 0 #549bfa, -1px 5px 0 #549bfa;
+}
+
+.lakers-classic-edition-2021-number {
+    line-height: 144px;
+    color: #ffffff;
+    text-shadow: 2px 0 0 #549bfa, -2px 0 0 #549bfa, 0 2px 0 #549bfa, 0 -2px 0 #549bfa, 1px 1px #549bfa, 5px 5px 0 #549bfa, 8px 6px 0 #549bfa, 8px 6px 0 #549bfa;
+}
+
+.lakers-earned-edition-2021-number {
+    color: #552583;
+    text-shadow: 1px 0 0 #fdb927, 1px 0 0 #fdb927, 0 2px 0 #fdb927, 0 -2px 0 #fdb927, 1px 1px #fdb927, 1px 1px 0 #fdb927, 1px 5px 0 #fdb927, 1px 5px 0 #fdb927;
+}
+
+.lakers-black {
+    color: #000000;
+}
+
+button {    
+    background-color: rgba(255,255,255,0.2);
+    color: #ffffff;
+    border-color: #fff;
+    margin: 4px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgba(255,255,255,0.4);
+}

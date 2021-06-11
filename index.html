@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PWA Meta tags -->
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#17408b">
+    <!-- Optimized to screen width -->
+    <meta name="MobileOptimized" content="width">
+    <!-- Touch friendly -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- IOs configuration -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- IOs theme: default, black, black-translucent -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./favicon.png" type="image/x-icon">
+    <!-- Splash screen image -->
+    <link rel="apple-touch-startup-image" href="./favicon.png" type="image/x-icon">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Title -->
+    <title>React - Jersey Generator</title>
+
+    <!-- Scripts -->
+    <!-- React Production CDN Links -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <!-- Load Babel -->
+    <!-- v6 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel" src="./components/Jersey.js"></script>
+    <!-- ReactDOM root  -->
+    <script type="text/babel" src="./index.js"></script>
+    <!-- Service Worker -->
+    <script src="./register.js"></script>
+</body>
+
+</html>
