@@ -1,0 +1,35 @@
+Color Name: Chathams Blue
+
+HEX Code: #17408b
+
+RGB: rgb(23, 64, 139)
+
+CMYK: 83, 54, 0, 45
+
+Check this color
+
+
+
+
+Color Name: White
+
+HEX Code: #ffffff
+
+RGB: rgb(255, 255, 255)
+
+CMYK: 0, 0, 0, 0
+
+Check this color
+
+
+
+
+Color Name: Monza
+
+HEX Code: #c9082a
+
+RGB: rgb(201, 8, 42)
+
+CMYK: 0, 96, 79, 21
+
+Check this color
